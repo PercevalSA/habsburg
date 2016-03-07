@@ -13,21 +13,34 @@ $('a[href*=#]:not([href=#])').click(function() {
         $('html,body').animate({
           scrollTop: target.offset().top - 50
         }, 800);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
         if (this.hash=="#section1") {
             $('.scroll-up').hide();
         }
         else {
             $('.scroll-up').show();
         }
+<<<<<<< HEAD
 
 
+=======
+        
+        
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
         // activte animations in this section
         target.find('.animate').delay(1200).addClass("animated");
         setTimeout(function(){
             target.find('.animated').removeClass("animated");
         },2000);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
         return false;
       }
     }
@@ -37,10 +50,21 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 $(".toggle-position").click(function(){
     $("#rudolf4").toggleClass("rudolf4")
+<<<<<<< HEAD
     $("#karl6").toggleClass("karl6")
     $("#leopold1").toggleClass("leopold1")
     $("#maria").toggleClass("maria")
     $("#josef2").toggleClass("josef2")
+=======
+    $("#charles").toggleClass("charles")
+    $("#ferdinand").toggleClass("ferdinand")
+    $("#rudolf2").toggleClass("rudolf2")
+    $("#leopold").toggleClass("leopold")
+    $("#joseph").toggleClass("joseph")
+    $("#franz").toggleClass("franz")
+    $("#maria").toggleClass("maria")
+    $("#franzjoseph").toggleClass("franzjoseph")
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 });
 
 /*link between actors */
@@ -74,7 +98,11 @@ $("#fbk-research").hover(function(){
 
 $("#zeynep").hover(function(){
     $("#fbk-research").toggleClass("critique anime-flow")
+<<<<<<< HEAD
     $("#sandvig").toggleClass("sappuie anime-flow");
+=======
+    $("#sandvig").toggleClass("sappuie anime-flow");   
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 });
 
 $("#sandvig").hover(function(){
@@ -147,3 +175,11 @@ $('#q5').click(function(){
 $('#q6').click(function(){
   $('#r6').slideToggle("hidin")
 });
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
