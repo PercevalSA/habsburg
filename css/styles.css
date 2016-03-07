@@ -2,7 +2,7 @@
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('../banner.jpg');
+    background:center no-repeat fixed url('../img/banner.jpg');
     background-size: cover;
     color:#444;
     font-family: 'Lato', sans-serif;
@@ -117,11 +117,7 @@ a:hover {
 }
 
 section {
-<<<<<<< HEAD
 	padding-top:50px;
-=======
-	padding-top:50px;  
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
   padding-bottom:50px;
     min-height:100%;
     min-height:calc(100% - 0);
@@ -145,11 +141,6 @@ section {
   padding-right: 30px;
   font-size: 130%;
   line-height: 1.7;
-<<<<<<< HEAD
-}
-=======
-} 
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 
 .circle {
       width: 160%;
@@ -174,20 +165,11 @@ section {
   background-position: 20%;
 }
 
-
-<<<<<<< HEAD
 .circle a {
   text-decoration: none;
 }
 
 .circle a:hover {
-=======
-.circle a { 
-  text-decoration: none;
-}
-
-.circle a:hover { 
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
   text-decoration: none;
 }
 
@@ -290,26 +272,18 @@ section {
   color: white;
 }
 
-<<<<<<< HEAD
 .karl6 a {
   color: white;
 }
 
 .karl6 {
-=======
-.charles a {
-  color: white;
-}
-
-.charles {
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
  width: 60%;
   border-radius: 10px;
   padding: 2% 2%;
   margin: 1px;
   line-height: 1;
   position: relative;
-<<<<<<< HEAD
+
   background: green;
   color: white;
 }
@@ -319,47 +293,6 @@ section {
 }
 
 .leopold1 {
-=======
-  background: black;
-  color: white;
-}
-
-.ferdinand a {
-  color: white;
-}
-
-.ferdinand {
-  width: 60%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: orange;
-  color: white; 
-}
-
-.rudolf2 a {
-  color: white;
-}
-
-.rudolf2 {
-  width: 60%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: blue;
-  color: white;
-}
-
-.leopold a {
-  color: white;
-}
-
-.leopold {
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
   width: 60%;
   border-radius: 10px;
   padding: 2% 2%;
@@ -370,19 +303,12 @@ section {
   color: white;
 }
 
-<<<<<<< HEAD
+
 .josef2 a {
   color: white;
 }
 
-.josef2 {
-=======
-.joseph a {
-  color: white;
-}
-
 .joseph {
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
   width: 60%;
   border-radius: 10px;
   padding: 2% 2%;
@@ -393,8 +319,6 @@ section {
   color: white;
 }
 
-<<<<<<< HEAD
-=======
 .franz a {
   color: white;
 }
@@ -410,7 +334,6 @@ section {
   color: white;
 }
 
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 .maria a {
   color: white;
 }
@@ -422,9 +345,6 @@ section {
   margin: 1px;
   line-height: 1;
   position: relative;
-<<<<<<< HEAD
-  background: blue;
-=======
   background: cyan;
   color: white;
 }
@@ -441,7 +361,6 @@ section {
   line-height: 1;
   position: relative;
   background: coral;
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
   color: white;
 }
 
@@ -454,11 +373,7 @@ section {
 	color:#fff;
 	font-family: 'Lato', sans-serif;
 }
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 #section4 {
   background-color: rgba(0,0,0,0.7);
   color:#fff;
@@ -466,11 +381,7 @@ section {
 	/*background-color: #f6f6f6;
 	color:#444;*/
 }
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
 #section3 {
 	background-color: #fff;
   min-height: 140%;
@@ -587,8 +498,4 @@ footer .nav>li>a {
 footer .nav>li>a:hover {
     background-color:transparent;
 	color:#fff;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 91eeb50fdeecb0117e0b513fccb75978b822c275
