@@ -45,10 +45,10 @@ $(".toggle-position").click(function(){
         $("#kunste").toggleClass("leopold1")
 
     $("#maria").toggleClass("maria")
+        $("#schulreform").toggleClass("maria")
 
     $("#josef2").toggleClass("josef2")
         $("#mozart").toggleClass("josef2")
-        $("#schulreform").toggleClass("josef2")
 
 });
 
@@ -62,7 +62,6 @@ $("#rudolf4").click(function(){
 $("#josef2").click(function(){
     $("#josef2").toggleClass("josef2")
     $("#mozart").toggleClass("josef2")
-    $("#schulreform").toggleClass("josef2")
 });
 
 $("#leopold1").click(function(){
@@ -79,5 +78,6 @@ $("#karl6").click(function(){
 
 $("#maria").click(function(){
     $("#maria").toggleClass("maria")
+    $("#schulreform").toggleClass("maria")
 });
 
