@@ -261,8 +261,8 @@ section {
   color: white;
 }
 
-.rudolf4 a {
-  color: white;
+#rudolf4 {
+  cursor: help;
 }
 
 .rudolf4 {
@@ -272,12 +272,12 @@ section {
   margin: 1px;
   line-height: 1;
   position: relative;
-  background: red;
+  background: darkred;
   color: white;
 }
 
-.karl6 a {
-  color: white;
+#karl6 {
+  cursor: help;
 }
 
 .karl6 {
@@ -292,8 +292,8 @@ section {
   color: white;
 }
 
-.leopold1 a {
-  color: white;
+#leopold1 {
+  cursor: help;
 }
 
 .leopold1 {
@@ -307,12 +307,26 @@ section {
   color: white;
 }
 
+#maria {
+  cursor: help;
+}
 
-.josef2 a {
+.maria {
+  width: 100%;
+  border-radius: 10px;
+  padding: 2% 2%;
+  margin: 1px;
+  line-height: 1;
+  position: relative;
+  background: blue;
   color: white;
 }
 
-.joseph {
+#josef2 {
+  cursor: help;
+}
+
+.josef2 {
   width: 100%;
   border-radius: 10px;
   padding: 2% 2%;
@@ -323,50 +337,6 @@ section {
   color: white;
 }
 
-.franz a {
-  color: white;
-}
-
-.franz {
-  width: 100%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: green;
-  color: white;
-}
-
-.maria a {
-  color: white;
-}
-
-.maria {
-  width: 100%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: cyan;
-  color: white;
-}
-
-.franzjoseph a {
-  color: white;
-}
-
-.franzjoseph {
-  width: 100%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: coral;
-  color: white;
-}
 
 .hidin {
   display: none;

@@ -36,41 +36,22 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 $(".toggle-position").click(function(){
     $("#rudolf4").toggleClass("rudolf4")
-    $("#charles").toggleClass("charles")
-    $("#ferdinand").toggleClass("ferdinand")
-    $("#rudolf2").toggleClass("rudolf2")
-    $("#leopold").toggleClass("leopold")
-    $("#joseph").toggleClass("joseph")
-    $("#franz").toggleClass("franz")
+        $("#univ").toggleClass("rudolf4")
+
+    $("#karl6").toggleClass("karl6")
+
+    $("#leopold1").toggleClass("leopold1")
+
     $("#maria").toggleClass("maria")
-    $("#franzjoseph").toggleClass("franzjoseph")
+
+    $("#josef2").toggleClass("josef2")
+
 });
 
 /*link between actors */
 
-$("#rudolf").hover(function(){
-    $(".rudolf4").toggleClass("rudolf4")
-    $("#fbk").toggleClass("critique-perso anime-flow")
-    $("#google").toggleClass("critique-perso anime-flow")
-    $("#jacob").toggleClass("critique-par anime-flow");
+$("#rudolf4").click(function(){
+    $("#rudolf4").toggleClass("rudolf4")
+    $("#univ").toggleClass("rudolf4")
 });
 
-
-$("#ddg").hover(function(){
-    $("#google").toggleClass("alternative anime-flow")
-    $("#yahoo").toggleClass("alternative anime-flow");
-});
-
-$("#random").hover(function(){
-    $("#fbk").toggleClass("alternative anime-flow");
-});
-
-$("#fbk").hover(function(){
-    $("#fbk-research").toggleClass("sappuie anime-flow");
-});
-
-$("#fbk-research").hover(function(){
-    $("#zeynep").toggleClass("critique-par anime-flow")
-    $("#sandvig").toggleClass("critique-par anime-flow")
-    $("#heszter").toggleClass("critique-par anime-flow");
-});
