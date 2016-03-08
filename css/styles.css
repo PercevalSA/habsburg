@@ -213,52 +213,19 @@ section {
       color: white;
 }
 
- /* position */
-/*
-.defenseur {
-  width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      text-decoration: none;
-      padding: 2% 2%;
-      margin: 1px;
-      line-height: 1;
-      position: relative;
-      background: darkgreen;
-      color: white;
-}
-
-.defenseur a {
-   color: white;
-}
-
-.detracteur {
-  width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      text-decoration: none;
-      padding: 2% 2%;
-      margin: 1px;
-      line-height: 1;
-      position: relative;
-      background: darkred;
-      color: white;
-}
-
-.detracteur a {
-  color: white;
-}
-
-
 .anime-flow {
   animation-name: pulse;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-*/
+
 .anime-flow a {
   text-decoration: none;
   color: white;
+}
+
+#rudolf4 {
+  cursor: help;
 }
 
 .rudolf4 a {
@@ -272,8 +239,12 @@ section {
   margin: 1px;
   line-height: 1;
   position: relative;
-  background: red;
+  background: darkred;
   color: white;
+}
+
+#karl6 {
+  cursor: help;
 }
 
 .karl6 a {
@@ -292,6 +263,10 @@ section {
   color: white;
 }
 
+#leopold1 {
+  cursor: help;
+}
+
 .leopold1 a {
   color: white;
 }
@@ -307,35 +282,8 @@ section {
   color: white;
 }
 
-
-.josef2 a {
-  color: white;
-}
-
-.joseph {
-  width: 100%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: darkorange;
-  color: white;
-}
-
-.franz a {
-  color: white;
-}
-
-.franz {
-  width: 100%;
-  border-radius: 10px;
-  padding: 2% 2%;
-  margin: 1px;
-  line-height: 1;
-  position: relative;
-  background: green;
-  color: white;
+#maria {
+  cursor: help;
 }
 
 .maria a {
@@ -349,22 +297,26 @@ section {
   margin: 1px;
   line-height: 1;
   position: relative;
-  background: cyan;
+  background: blue;
   color: white;
 }
 
-.franzjoseph a {
+#josef2 {
+  cursor: help;
+}
+
+.josef2 a {
   color: white;
 }
 
-.franzjoseph {
+.josef2 {
   width: 100%;
   border-radius: 10px;
   padding: 2% 2%;
   margin: 1px;
   line-height: 1;
   position: relative;
-  background: coral;
+  background: darkorange;
   color: white;
 }
 
