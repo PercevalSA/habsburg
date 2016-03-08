@@ -213,49 +213,12 @@ section {
       color: white;
 }
 
- /* position */
-/*
-.defenseur {
-  width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      text-decoration: none;
-      padding: 2% 2%;
-      margin: 1px;
-      line-height: 1;
-      position: relative;
-      background: darkgreen;
-      color: white;
-}
-
-.defenseur a {
-   color: white;
-}
-
-.detracteur {
-  width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      text-decoration: none;
-      padding: 2% 2%;
-      margin: 1px;
-      line-height: 1;
-      position: relative;
-      background: darkred;
-      color: white;
-}
-
-.detracteur a {
-  color: white;
-}
-
-
 .anime-flow {
   animation-name: pulse;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-*/
+
 .anime-flow a {
   text-decoration: none;
   color: white;
@@ -263,6 +226,10 @@ section {
 
 #rudolf4 {
   cursor: help;
+}
+
+.rudolf4 a {
+  color: white;
 }
 
 .rudolf4 {
@@ -278,6 +245,10 @@ section {
 
 #karl6 {
   cursor: help;
+}
+
+.karl6 a {
+  color: white;
 }
 
 .karl6 {
@@ -296,6 +267,10 @@ section {
   cursor: help;
 }
 
+.leopold1 a {
+  color: white;
+}
+
 .leopold1 {
   width: 100%;
   border-radius: 10px;
@@ -309,6 +284,10 @@ section {
 
 #maria {
   cursor: help;
+}
+
+.maria a {
+  color: white;
 }
 
 .maria {
@@ -326,6 +305,10 @@ section {
   cursor: help;
 }
 
+.josef2 a {
+  color: white;
+}
+
 .josef2 {
   width: 100%;
   border-radius: 10px;
@@ -336,7 +319,6 @@ section {
   background: darkorange;
   color: white;
 }
-
 
 .hidin {
   display: none;

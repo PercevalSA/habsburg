@@ -45,7 +45,7 @@ $(".toggle-position").click(function(){
     $("#maria").toggleClass("maria")
 
     $("#josef2").toggleClass("josef2")
-
+        $("#mozart").toggleClass("josef2")
 });
 
 /*link between actors */
@@ -53,5 +53,16 @@ $(".toggle-position").click(function(){
 $("#rudolf4").click(function(){
     $("#rudolf4").toggleClass("rudolf4")
     $("#univ").toggleClass("rudolf4")
+});
+
+$("#josef2").click(function(){
+    $("#josef2").toggleClass("josef2")
+    $("#mozart").toggleClass("josef2")
+    $("#schulreform").toggleClass("josef2")
+});
+
+$("#leopold1").click(function(){
+    $("#leopold1").toggleClass("leopold1")
+    $("#kunst").toggleClass("leopold1")
 });
 
