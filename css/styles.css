@@ -119,11 +119,11 @@ a:hover {
 section {
 	padding-top:50px;
   padding-bottom:50px;
-    min-height:100%;
-    min-height:calc(100% - 0);
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+  min-height:100%;
+  min-height:calc(100% - 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 @media (min-width:768px) {
@@ -139,39 +139,30 @@ section {
 .intro {
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 20px;
   font-size: 130%;
   line-height: 1.7;
 }
 
+
+.arbre {
+  margin-top:3%;
+}
+
 .circle {
-      width: 160%;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
-      font-size: 12px;
-      padding: 50% 0;
-      line-height: 1;
-      position: relative;
-      background: #38a9e4;
-      color: white;
-}
-
-
-.arrow-center {
-  background-image:url(../arrow-center.png);
-  background-repeat: no-repeat;
-  width: 30%;
-  height: auto;
-  background-size: 100%;
-  background-position: 20%;
-}
-
-.circle a {
+  height: 150px;
+  width: 150px;
+  text-align: center;
   text-decoration: none;
-}
-
-.circle a:hover {
-  text-decoration: none;
+  font-size: 1.2em;
+  color: #eeeeee;
+  background: #38a9e4;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  top: 10px;
+  margin-left: -15px;
+  padding-top: 60px;
+  z-index:-1;
 }
 
 .circle:hover {
@@ -179,6 +170,22 @@ section {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   text-decoration: none;
+}
+
+.circle-rudolf4 {
+  background:center no-repeat url("../img/Habsburger/rudolf4.png");
+}
+.circle-karl6 {
+  background:center no-repeat url("../img/Habsburger/karl6.png");
+}
+.circle-leopold1 {
+  background:center no-repeat url("../img/Habsburger/leopold1.png");
+}
+.circle-maria-theresia {
+  background:center no-repeat url("../img/Habsburger/maria-theresa.png");
+}
+.circle-joseph2 {
+  background:center no-repeat url("../img/Habsburger/joseph2.png");
 }
 
 .modal-body {
@@ -204,10 +211,6 @@ section {
       position: relative;
       background: #38a9e4;
       color: white;
-}
-
-.arbre {
-  margin-top:3%;
 }
 
  /* position */
@@ -390,6 +393,8 @@ section {
 
 #section2 {
 	background-color: rgba(0,0,0,0.9);
+    min-height:60%;
+  min-height:calc(60% - 0);
 }
 
 #section5 {
@@ -473,7 +478,6 @@ section {
 #section6 h4 {
   color: black;
 }
-
 
 #section7 {
 	background-color: #f44d3c;
