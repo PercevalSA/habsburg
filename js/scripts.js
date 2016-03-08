@@ -76,3 +76,8 @@ $("#karl6").click(function(){
     $("#sanktion").toggleClass("karl6")
 });
 
+
+$("#maria").click(function(){
+    $("#maria").toggleClass("maria")
+});
+
